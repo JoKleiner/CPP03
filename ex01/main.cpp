@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 12:56:05 by joklein           #+#    #+#             */
-/*   Updated: 2025/05/20 13:56:30 by joklein          ###   ########.fr       */
+/*   Updated: 2025/05/21 13:16:03 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	main(void)
 {
 	ClapTrap clap("Clappi");
 	ScavTrap scav("Scavi");
+	// ClapTrap *scav = new ScavTrap("Scavi");   for virtual testing
 	
 	scav.guardGate();
 	clap.attack("Dog");
@@ -37,5 +38,6 @@ int	main(void)
 	scav.attack("Dog");
 	std::cout << "Dog died" << std::endl;
 	scav.guardGate();
+	// delete scav;
 	return (0);
 }
