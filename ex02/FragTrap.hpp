@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 13:59:51 by joklein           #+#    #+#             */
-/*   Updated: 2025/05/20 14:04:36 by joklein          ###   ########.fr       */
+/*   Updated: 2025/05/21 13:18:39 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,6 @@ class FragTrap : public ClapTrap
 
 	void attack(const std::string &target);
     void highFivesGuys(void);
-
-  private:
 };
 
 #endif

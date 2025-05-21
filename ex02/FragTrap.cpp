@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 13:59:48 by joklein           #+#    #+#             */
-/*   Updated: 2025/05/20 14:05:45 by joklein          ###   ########.fr       */
+/*   Updated: 2025/05/21 13:32:09 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,5 +70,5 @@ void FragTrap::attack(const std::string &target)
 
 void FragTrap::highFivesGuys(void)
 {
-    std::cout << "FragTrap " << m_name << " wow" << std::endl;
+    std::cout << m_name << ": \033[1;31m\"wow: \033[0;3;33mhigh5..\033[1;31m\"\033[0m" << std::endl;
 }
